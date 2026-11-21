@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Helvetica,Arial,sans-serif">
+<rect width="100%" height="100%" fill="#f7f8fa"/>
+<text x="70" y="26" font-size="15" font-weight="700" fill="#14161a">M16 Part A — SIMT memory-level parallelism vs Bulk, W1 at N = 65 536</text>
+<text x="70" y="43" font-size="11" fill="#5b6270">mean of 3 paired seeds; L1 MSHRs swept with R = 128 fixed; 2 × 8K window</text>
+<rect x="70" y="54" width="421" height="263" fill="#ffffff" stroke="#c8ccd2"/>
+<line x1="70" y1="317.0" x2="491" y2="317.0" stroke="#eceef1"/>
+<text x="64" y="321.0" font-size="11" fill="#5b6270" text-anchor="end">250k</text>
+<line x1="70" y1="251.2" x2="491" y2="251.2" stroke="#eceef1"/>
+<text x="64" y="255.2" font-size="11" fill="#5b6270" text-anchor="end">356k</text>
+<line x1="70" y1="185.5" x2="491" y2="185.5" stroke="#eceef1"/>
+<text x="64" y="189.5" font-size="11" fill="#5b6270" text-anchor="end">461k</text>
+<line x1="70" y1="119.8" x2="491" y2="119.8" stroke="#eceef1"/>
+<text x="64" y="123.8" font-size="11" fill="#5b6270" text-anchor="end">567k</text>
+<line x1="70" y1="54.0" x2="491" y2="54.0" stroke="#eceef1"/>
+<text x="64" y="58.0" font-size="11" fill="#5b6270" text-anchor="end">672k</text>
+<line x1="70.0" y1="54" x2="70.0" y2="317" stroke="#eceef1"/>
+<text x="70.0" y="333" font-size="11" fill="#5b6270" text-anchor="middle">16</text>
+<line x1="98.1" y1="54" x2="98.1" y2="317" stroke="#eceef1"/>
+<text x="98.1" y="333" font-size="11" fill="#5b6270" text-anchor="middle">32</text>
+<line x1="154.2" y1="54" x2="154.2" y2="317" stroke="#eceef1"/>
+<text x="154.2" y="333" font-size="11" fill="#5b6270" text-anchor="middle">64</text>
+<line x1="266.5" y1="54" x2="266.5" y2="317" stroke="#eceef1"/>
+<text x="266.5" y="333" font-size="11" fill="#5b6270" text-anchor="middle">128</text>
+<line x1="491.0" y1="54" x2="491.0" y2="317" stroke="#eceef1"/>
+<text x="491.0" y="333" font-size="11" fill="#5b6270" text-anchor="middle">256</text>
+<text x="280.5" y="351" font-size="11" fill="#5b6270" text-anchor="middle">L1 MSHRs</text>
+<text x="70" y="30" font-size="12" font-weight="600" fill="#23262b">SIMT-only runtime</text>
+<text x="70" y="44" font-size="10" fill="#5b6270">cycles (lower is better)</text>
+<path d="M70.0,289.6 L98.1,295.4 L154.2,298.5 L266.5,298.9 L491.0,298.9" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+<circle cx="70.0" cy="289.6" r="3.2" fill="#1f6feb"/>
+<circle cx="98.1" cy="295.4" r="3.2" fill="#1f6feb"/>
+<circle cx="154.2" cy="298.5" r="3.2" fill="#1f6feb"/>
+<circle cx="266.5" cy="298.9" r="3.2" fill="#1f6feb"/>
+<circle cx="491.0" cy="298.9" r="3.2" fill="#1f6feb"/>
+<text x="487.0" y="290.9" font-size="10" fill="#1f6feb">κ = .75</text>
+<path d="M70.0,72.1 L98.1,83.4 L154.2,92.2 L266.5,93.0 L491.0,93.0" fill="none" stroke="#d1651c" stroke-width="2.2"/>
+<circle cx="70.0" cy="72.1" r="3.2" fill="#d1651c"/>
+<circle cx="98.1" cy="83.4" r="3.2" fill="#d1651c"/>
+<circle cx="154.2" cy="92.2" r="3.2" fill="#d1651c"/>
+<circle cx="266.5" cy="93.0" r="3.2" fill="#d1651c"/>
+<circle cx="491.0" cy="93.0" r="3.2" fill="#d1651c"/>
+<text x="487.0" y="85.0" font-size="10" fill="#d1651c">κ = .25</text>
+<rect x="549" y="54" width="421" height="263" fill="#ffffff" stroke="#c8ccd2"/>
+<line x1="549" y1="317.0" x2="970" y2="317.0" stroke="#eceef1"/>
+<text x="543" y="321.0" font-size="11" fill="#5b6270" text-anchor="end">224k</text>
+<line x1="549" y1="251.2" x2="970" y2="251.2" stroke="#eceef1"/>
+<text x="543" y="255.2" font-size="11" fill="#5b6270" text-anchor="end">277k</text>
+<line x1="549" y1="185.5" x2="970" y2="185.5" stroke="#eceef1"/>
+<text x="543" y="189.5" font-size="11" fill="#5b6270" text-anchor="end">331k</text>
+<line x1="549" y1="119.8" x2="970" y2="119.8" stroke="#eceef1"/>
+<text x="543" y="123.8" font-size="11" fill="#5b6270" text-anchor="end">384k</text>
+<line x1="549" y1="54.0" x2="970" y2="54.0" stroke="#eceef1"/>
+<text x="543" y="58.0" font-size="11" fill="#5b6270" text-anchor="end">438k</text>
+<line x1="549.0" y1="54" x2="549.0" y2="317" stroke="#eceef1"/>
+<text x="549.0" y="333" font-size="11" fill="#5b6270" text-anchor="middle">16</text>
+<line x1="577.1" y1="54" x2="577.1" y2="317" stroke="#eceef1"/>
+<text x="577.1" y="333" font-size="11" fill="#5b6270" text-anchor="middle">32</text>
+<line x1="633.2" y1="54" x2="633.2" y2="317" stroke="#eceef1"/>
+<text x="633.2" y="333" font-size="11" fill="#5b6270" text-anchor="middle">64</text>
+<line x1="745.5" y1="54" x2="745.5" y2="317" stroke="#eceef1"/>
+<text x="745.5" y="333" font-size="11" fill="#5b6270" text-anchor="middle">128</text>
+<line x1="970.0" y1="54" x2="970.0" y2="317" stroke="#eceef1"/>
+<text x="970.0" y="333" font-size="11" fill="#5b6270" text-anchor="middle">256</text>
+<text x="759.5" y="351" font-size="11" fill="#5b6270" text-anchor="middle">L1 MSHRs</text>
+<text x="549" y="30" font-size="12" font-weight="600" fill="#23262b">Hybrid runtime (SIMT + Bulk)</text>
+<text x="549" y="44" font-size="10" fill="#5b6270">cycles</text>
+<path d="M549.0,290.8 L577.1,296.2 L633.2,297.7 L745.5,298.9 L970.0,298.9" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+<circle cx="549.0" cy="290.8" r="3.2" fill="#1f6feb"/>
+<circle cx="577.1" cy="296.2" r="3.2" fill="#1f6feb"/>
+<circle cx="633.2" cy="297.7" r="3.2" fill="#1f6feb"/>
+<circle cx="745.5" cy="298.9" r="3.2" fill="#1f6feb"/>
+<circle cx="970.0" cy="298.9" r="3.2" fill="#1f6feb"/>
+<text x="966.0" y="290.9" font-size="10" fill="#1f6feb">κ = .75</text>
+<path d="M549.0,72.1 L577.1,84.8 L633.2,88.7 L745.5,89.4 L970.0,89.4" fill="none" stroke="#d1651c" stroke-width="2.2"/>
+<circle cx="549.0" cy="72.1" r="3.2" fill="#d1651c"/>
+<circle cx="577.1" cy="84.8" r="3.2" fill="#d1651c"/>
+<circle cx="633.2" cy="88.7" r="3.2" fill="#d1651c"/>
+<circle cx="745.5" cy="89.4" r="3.2" fill="#d1651c"/>
+<circle cx="970.0" cy="89.4" r="3.2" fill="#d1651c"/>
+<text x="966.0" y="81.4" font-size="10" fill="#d1651c">κ = .25</text>
+<rect x="70" y="375" width="421" height="263" fill="#ffffff" stroke="#c8ccd2"/>
+<line x1="70" y1="638.0" x2="491" y2="638.0" stroke="#eceef1"/>
+<text x="64" y="642.0" font-size="11" fill="#5b6270" text-anchor="end">0.8</text>
+<line x1="70" y1="572.2" x2="491" y2="572.2" stroke="#eceef1"/>
+<text x="64" y="576.2" font-size="11" fill="#5b6270" text-anchor="end">1.0</text>
+<line x1="70" y1="506.5" x2="491" y2="506.5" stroke="#eceef1"/>
+<text x="64" y="510.5" font-size="11" fill="#5b6270" text-anchor="end">1.2</text>
+<line x1="70" y1="440.8" x2="491" y2="440.8" stroke="#eceef1"/>
+<text x="64" y="444.8" font-size="11" fill="#5b6270" text-anchor="end">1.5</text>
+<line x1="70" y1="375.0" x2="491" y2="375.0" stroke="#eceef1"/>
+<text x="64" y="379.0" font-size="11" fill="#5b6270" text-anchor="end">1.7</text>
+<line x1="70.0" y1="375" x2="70.0" y2="638" stroke="#eceef1"/>
+<text x="70.0" y="654" font-size="11" fill="#5b6270" text-anchor="middle">16</text>
+<line x1="98.1" y1="375" x2="98.1" y2="638" stroke="#eceef1"/>
+<text x="98.1" y="654" font-size="11" fill="#5b6270" text-anchor="middle">32</text>
+<line x1="154.2" y1="375" x2="154.2" y2="638" stroke="#eceef1"/>
+<text x="154.2" y="654" font-size="11" fill="#5b6270" text-anchor="middle">64</text>
+<line x1="266.5" y1="375" x2="266.5" y2="638" stroke="#eceef1"/>
+<text x="266.5" y="654" font-size="11" fill="#5b6270" text-anchor="middle">128</text>
+<line x1="491.0" y1="375" x2="491.0" y2="638" stroke="#eceef1"/>
+<text x="491.0" y="654" font-size="11" fill="#5b6270" text-anchor="middle">256</text>
+<text x="280.5" y="672" font-size="11" fill="#5b6270" text-anchor="middle">L1 MSHRs</text>
+<text x="70" y="351" font-size="12" font-weight="600" fill="#23262b">Bulk speedup over the SIMT-only arm</text>
+<text x="70" y="365" font-size="10" fill="#5b6270">SIMT-only / hybrid</text>
+<path d="M70.0,522.5 L98.1,528.0 L154.2,532.8 L266.5,532.1 L491.0,532.1" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+<circle cx="70.0" cy="522.5" r="3.2" fill="#1f6feb"/>
+<circle cx="98.1" cy="528.0" r="3.2" fill="#1f6feb"/>
+<circle cx="154.2" cy="532.8" r="3.2" fill="#1f6feb"/>
+<circle cx="266.5" cy="532.1" r="3.2" fill="#1f6feb"/>
+<circle cx="491.0" cy="532.1" r="3.2" fill="#1f6feb"/>
+<text x="487.0" y="524.1" font-size="10" fill="#1f6feb">κ = .75</text>
+<path d="M70.0,418.8 L98.1,420.7 L154.2,428.0 L266.5,428.4 L491.0,428.4" fill="none" stroke="#d1651c" stroke-width="2.2"/>
+<circle cx="70.0" cy="418.8" r="3.2" fill="#d1651c"/>
+<circle cx="98.1" cy="420.7" r="3.2" fill="#d1651c"/>
+<circle cx="154.2" cy="428.0" r="3.2" fill="#d1651c"/>
+<circle cx="266.5" cy="428.4" r="3.2" fill="#d1651c"/>
+<circle cx="491.0" cy="428.4" r="3.2" fill="#d1651c"/>
+<text x="487.0" y="420.4" font-size="10" fill="#d1651c">κ = .25</text>
+<rect x="549" y="375" width="421" height="263" fill="#ffffff" stroke="#c8ccd2"/>
+<line x1="549" y1="638.0" x2="970" y2="638.0" stroke="#eceef1"/>
+<text x="543" y="642.0" font-size="11" fill="#5b6270" text-anchor="end">66</text>
+<line x1="549" y1="572.2" x2="970" y2="572.2" stroke="#eceef1"/>
+<text x="543" y="576.2" font-size="11" fill="#5b6270" text-anchor="end">79</text>
+<line x1="549" y1="506.5" x2="970" y2="506.5" stroke="#eceef1"/>
+<text x="543" y="510.5" font-size="11" fill="#5b6270" text-anchor="end">92</text>
+<line x1="549" y1="440.8" x2="970" y2="440.8" stroke="#eceef1"/>
+<text x="543" y="444.8" font-size="11" fill="#5b6270" text-anchor="end">105</text>
+<line x1="549" y1="375.0" x2="970" y2="375.0" stroke="#eceef1"/>
+<text x="543" y="379.0" font-size="11" fill="#5b6270" text-anchor="end">118</text>
+<line x1="549.0" y1="375" x2="549.0" y2="638" stroke="#eceef1"/>
+<text x="549.0" y="654" font-size="11" fill="#5b6270" text-anchor="middle">16</text>
+<line x1="577.1" y1="375" x2="577.1" y2="638" stroke="#eceef1"/>
+<text x="577.1" y="654" font-size="11" fill="#5b6270" text-anchor="middle">32</text>
+<line x1="633.2" y1="375" x2="633.2" y2="638" stroke="#eceef1"/>
+<text x="633.2" y="654" font-size="11" fill="#5b6270" text-anchor="middle">64</text>
+<line x1="745.5" y1="375" x2="745.5" y2="638" stroke="#eceef1"/>
+<text x="745.5" y="654" font-size="11" fill="#5b6270" text-anchor="middle">128</text>
+<line x1="970.0" y1="375" x2="970.0" y2="638" stroke="#eceef1"/>
+<text x="970.0" y="654" font-size="11" fill="#5b6270" text-anchor="middle">256</text>
+<text x="759.5" y="672" font-size="11" fill="#5b6270" text-anchor="middle">L1 MSHRs</text>
+<text x="549" y="351" font-size="12" font-weight="600" fill="#23262b">Effective request concurrency</text>
+<text x="549" y="365" font-size="10" fill="#5b6270">mean outstanding requests per cycle (A = SIMT-only, C = hybrid)</text>
+<path d="M549.0,468.7 L577.1,474.2 L633.2,477.1 L745.5,477.5 L970.0,477.5" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+<circle cx="549.0" cy="468.7" r="3.2" fill="#1f6feb"/>
+<circle cx="577.1" cy="474.2" r="3.2" fill="#1f6feb"/>
+<circle cx="633.2" cy="477.1" r="3.2" fill="#1f6feb"/>
+<circle cx="745.5" cy="477.5" r="3.2" fill="#1f6feb"/>
+<circle cx="970.0" cy="477.5" r="3.2" fill="#1f6feb"/>
+<text x="966.0" y="469.5" font-size="10" fill="#1f6feb">A, κ=.75</text>
+<path d="M549.0,608.9 L577.1,619.9 L633.2,619.5 L745.5,616.0 L970.0,616.0" fill="none" stroke="#1f6feb" stroke-width="2.2"/>
+<circle cx="549.0" cy="608.9" r="3.2" fill="#1f6feb"/>
+<circle cx="577.1" cy="619.9" r="3.2" fill="#1f6feb"/>
+<circle cx="633.2" cy="619.5" r="3.2" fill="#1f6feb"/>
+<circle cx="745.5" cy="616.0" r="3.2" fill="#1f6feb"/>
+<circle cx="970.0" cy="616.0" r="3.2" fill="#1f6feb"/>
+<text x="966.0" y="608.0" font-size="10" fill="#1f6feb">C, κ=.75</text>
+<path d="M549.0,393.1 L577.1,395.4 L633.2,397.2 L745.5,397.4 L970.0,397.4" fill="none" stroke="#d1651c" stroke-width="2.2"/>
+<circle cx="549.0" cy="393.1" r="3.2" fill="#d1651c"/>
+<circle cx="577.1" cy="395.4" r="3.2" fill="#d1651c"/>
+<circle cx="633.2" cy="397.2" r="3.2" fill="#d1651c"/>
+<circle cx="745.5" cy="397.4" r="3.2" fill="#d1651c"/>
+<circle cx="970.0" cy="397.4" r="3.2" fill="#d1651c"/>
+<text x="966.0" y="389.4" font-size="10" fill="#d1651c">A, κ=.25</text>
+<path d="M549.0,475.8 L577.1,483.8 L633.2,484.2 L745.5,483.1 L970.0,483.1" fill="none" stroke="#d1651c" stroke-width="2.2"/>
+<circle cx="549.0" cy="475.8" r="3.2" fill="#d1651c"/>
+<circle cx="577.1" cy="483.8" r="3.2" fill="#d1651c"/>
+<circle cx="633.2" cy="484.2" r="3.2" fill="#d1651c"/>
+<circle cx="745.5" cy="483.1" r="3.2" fill="#d1651c"/>
+<circle cx="970.0" cy="483.1" r="3.2" fill="#d1651c"/>
+<text x="966.0" y="475.1" font-size="10" fill="#d1651c">C, κ=.25</text>
+</svg>

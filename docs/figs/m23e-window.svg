@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="440" fill="#ffffff"/>
+<text x="78" y="26" font-size="15" font-weight="bold">Context-window utilisation versus κ</text>
+<line x1="78" y1="382.0" x2="550" y2="382.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="386.0" font-size="11" text-anchor="end" fill="#555">0.00</text>
+<line x1="78" y1="298.0" x2="550" y2="298.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="302.0" font-size="11" text-anchor="end" fill="#555">0.25</text>
+<line x1="78" y1="214.0" x2="550" y2="214.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="218.0" font-size="11" text-anchor="end" fill="#555">0.50</text>
+<line x1="78" y1="130.0" x2="550" y2="130.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="134.0" font-size="11" text-anchor="end" fill="#555">0.75</text>
+<line x1="78" y1="46.0" x2="550" y2="46.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="50.0" font-size="11" text-anchor="end" fill="#555">1.00</text>
+<line x1="78.0" y1="46" x2="78.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="78.0" y="400" font-size="11" text-anchor="middle" fill="#555">0</text>
+<line x1="125.2" y1="46" x2="125.2" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="125.2" y="400" font-size="11" text-anchor="middle" fill="#555">0.1</text>
+<line x1="172.4" y1="46" x2="172.4" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="172.4" y="400" font-size="11" text-anchor="middle" fill="#555">0.2</text>
+<line x1="219.6" y1="46" x2="219.6" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="219.6" y="400" font-size="11" text-anchor="middle" fill="#555">0.3</text>
+<line x1="266.8" y1="46" x2="266.8" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="266.8" y="400" font-size="11" text-anchor="middle" fill="#555">0.4</text>
+<line x1="314.0" y1="46" x2="314.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="314.0" y="400" font-size="11" text-anchor="middle" fill="#555">0.5</text>
+<line x1="361.2" y1="46" x2="361.2" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="361.2" y="400" font-size="11" text-anchor="middle" fill="#555">0.6</text>
+<line x1="408.4" y1="46" x2="408.4" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="408.4" y="400" font-size="11" text-anchor="middle" fill="#555">0.7</text>
+<line x1="455.6" y1="46" x2="455.6" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="455.6" y="400" font-size="11" text-anchor="middle" fill="#555">0.8</text>
+<line x1="502.8" y1="46" x2="502.8" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="502.8" y="400" font-size="11" text-anchor="middle" fill="#555">0.9</text>
+<line x1="550.0" y1="46" x2="550.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="550.0" y="400" font-size="11" text-anchor="middle" fill="#555">1</text>
+<line x1="78" y1="382" x2="550" y2="382" stroke="#999"/>
+<line x1="78" y1="46" x2="78" y2="382" stroke="#999"/>
+<text x="314" y="424" font-size="12" text-anchor="middle">κ</text>
+<text x="18" y="214" font-size="12" text-anchor="middle" transform="rotate(-90 18 214)">window fill / capacity (mean)</text>
+<polyline points="78.0,46.0 125.2,79.6 172.4,111.8 219.6,145.0 266.8,178.9 314.0,103.4 361.2,109.5 408.4,181.8 455.6,247.1 502.8,314.2 550.0,382.0" fill="none" stroke="#1f77b4" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="46.0" r="3.2" fill="#1f77b4"/>
+<circle cx="125.2" cy="79.6" r="3.2" fill="#1f77b4"/>
+<circle cx="172.4" cy="111.8" r="3.2" fill="#1f77b4"/>
+<circle cx="219.6" cy="145.0" r="3.2" fill="#1f77b4"/>
+<circle cx="266.8" cy="178.9" r="3.2" fill="#1f77b4"/>
+<circle cx="314.0" cy="103.4" r="3.2" fill="#1f77b4"/>
+<circle cx="361.2" cy="109.5" r="3.2" fill="#1f77b4"/>
+<circle cx="408.4" cy="181.8" r="3.2" fill="#1f77b4"/>
+<circle cx="455.6" cy="247.1" r="3.2" fill="#1f77b4"/>
+<circle cx="502.8" cy="314.2" r="3.2" fill="#1f77b4"/>
+<circle cx="550.0" cy="382.0" r="3.2" fill="#1f77b4"/>
+<line x1="566" y1="54" x2="596" y2="54" stroke="#1f77b4" stroke-width="3"/>
+<text x="602" y="58" font-size="11.5">DX-100 2×8K</text>
+<polyline points="78.0,46.0 125.2,79.6 172.4,111.8 219.6,145.0 266.8,178.9 314.0,214.5 361.2,245.8 408.4,281.9 455.6,314.5 502.8,348.1 550.0,382.0" fill="none" stroke="#d62728" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="46.0" r="3.2" fill="#d62728"/>
+<circle cx="125.2" cy="79.6" r="3.2" fill="#d62728"/>
+<circle cx="172.4" cy="111.8" r="3.2" fill="#d62728"/>
+<circle cx="219.6" cy="145.0" r="3.2" fill="#d62728"/>
+<circle cx="266.8" cy="178.9" r="3.2" fill="#d62728"/>
+<circle cx="314.0" cy="214.5" r="3.2" fill="#d62728"/>
+<circle cx="361.2" cy="245.8" r="3.2" fill="#d62728"/>
+<circle cx="408.4" cy="281.9" r="3.2" fill="#d62728"/>
+<circle cx="455.6" cy="314.5" r="3.2" fill="#d62728"/>
+<circle cx="502.8" cy="348.1" r="3.2" fill="#d62728"/>
+<circle cx="550.0" cy="382.0" r="3.2" fill="#d62728"/>
+<line x1="566" y1="76" x2="596" y2="76" stroke="#d62728" stroke-width="3"/>
+<text x="602" y="80" font-size="11.5">DX-100 2×16K</text>
+<polyline points="78.0,214.0 125.2,230.8 172.4,246.9 219.6,263.5 266.8,280.4 314.0,298.2 361.2,313.9 408.4,332.0 455.6,348.3 502.8,365.0 550.0,382.0" fill="none" stroke="#2ca02c" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="214.0" r="3.2" fill="#2ca02c"/>
+<circle cx="125.2" cy="230.8" r="3.2" fill="#2ca02c"/>
+<circle cx="172.4" cy="246.9" r="3.2" fill="#2ca02c"/>
+<circle cx="219.6" cy="263.5" r="3.2" fill="#2ca02c"/>
+<circle cx="266.8" cy="280.4" r="3.2" fill="#2ca02c"/>
+<circle cx="314.0" cy="298.2" r="3.2" fill="#2ca02c"/>
+<circle cx="361.2" cy="313.9" r="3.2" fill="#2ca02c"/>
+<circle cx="408.4" cy="332.0" r="3.2" fill="#2ca02c"/>
+<circle cx="455.6" cy="348.3" r="3.2" fill="#2ca02c"/>
+<circle cx="502.8" cy="365.0" r="3.2" fill="#2ca02c"/>
+<circle cx="550.0" cy="382.0" r="3.2" fill="#2ca02c"/>
+<line x1="566" y1="98" x2="596" y2="98" stroke="#2ca02c" stroke-width="3"/>
+<text x="602" y="102" font-size="11.5">DX-100 2×32K</text>
+<text x="86" y="374" font-size="11" fill="#333">all three converge once Bulk elements fall below 8 192</text>
+<text x="86" y="359" font-size="11" fill="#333">fill falls as κ routes more instructions to SIMT</text>
+</svg>

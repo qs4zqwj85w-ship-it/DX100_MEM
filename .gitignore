@@ -1,0 +1,18 @@
+/ref/vortex/
+
+# Large datasets and generated simulator artifacts
+/data/
+/build/*
+!/build/wm/
+/build/wm/*
+!/build/wm/m29/
+
+# External Vortex reference checkout
+/ref/vortex/
+
+.DS_Store
+
+# Generated Vortex build artifacts
+/build-vortex/p0test
+/build-vortex/p0test.dSYM/
+/build-vortex/.DS_Store

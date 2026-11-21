@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="440" fill="#ffffff"/>
+<text x="78" y="26" font-size="15" font-weight="bold">Speedup over M0 versus κ (N=16 384, P=512, mean of 3 seeds)</text>
+<line x1="78" y1="382.0" x2="550" y2="382.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="386.0" font-size="11" text-anchor="end" fill="#555">0.90</text>
+<line x1="78" y1="298.0" x2="550" y2="298.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="302.0" font-size="11" text-anchor="end" fill="#555">1.23</text>
+<line x1="78" y1="214.0" x2="550" y2="214.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="218.0" font-size="11" text-anchor="end" fill="#555">1.55</text>
+<line x1="78" y1="130.0" x2="550" y2="130.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="134.0" font-size="11" text-anchor="end" fill="#555">1.88</text>
+<line x1="78" y1="46.0" x2="550" y2="46.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="70" y="50.0" font-size="11" text-anchor="end" fill="#555">2.20</text>
+<line x1="78.0" y1="46" x2="78.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="78.0" y="400" font-size="11" text-anchor="middle" fill="#555">0</text>
+<line x1="125.2" y1="46" x2="125.2" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="125.2" y="400" font-size="11" text-anchor="middle" fill="#555">0.1</text>
+<line x1="172.4" y1="46" x2="172.4" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="172.4" y="400" font-size="11" text-anchor="middle" fill="#555">0.2</text>
+<line x1="219.6" y1="46" x2="219.6" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="219.6" y="400" font-size="11" text-anchor="middle" fill="#555">0.3</text>
+<line x1="266.8" y1="46" x2="266.8" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="266.8" y="400" font-size="11" text-anchor="middle" fill="#555">0.4</text>
+<line x1="314.0" y1="46" x2="314.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="314.0" y="400" font-size="11" text-anchor="middle" fill="#555">0.5</text>
+<line x1="361.2" y1="46" x2="361.2" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="361.2" y="400" font-size="11" text-anchor="middle" fill="#555">0.6</text>
+<line x1="408.4" y1="46" x2="408.4" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="408.4" y="400" font-size="11" text-anchor="middle" fill="#555">0.7</text>
+<line x1="455.6" y1="46" x2="455.6" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="455.6" y="400" font-size="11" text-anchor="middle" fill="#555">0.8</text>
+<line x1="502.8" y1="46" x2="502.8" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="502.8" y="400" font-size="11" text-anchor="middle" fill="#555">0.9</text>
+<line x1="550.0" y1="46" x2="550.0" y2="382" stroke="#f2f2f2" stroke-width="1"/>
+<text x="550.0" y="400" font-size="11" text-anchor="middle" fill="#555">1</text>
+<line x1="78" y1="382" x2="550" y2="382" stroke="#999"/>
+<line x1="78" y1="46" x2="78" y2="382" stroke="#999"/>
+<text x="314" y="424" font-size="12" text-anchor="middle">κ</text>
+<text x="18" y="214" font-size="12" text-anchor="middle" transform="rotate(-90 18 214)">speedup vs M0  (cycles_M0 / cycles)</text>
+<polyline points="78.0,356.2 125.2,356.2 172.4,356.2 219.6,356.2 266.8,356.2 314.0,356.2 361.2,356.2 408.4,356.2 455.6,356.2 502.8,356.2 550.0,356.2" fill="none" stroke="#444444" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="125.2" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="172.4" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="219.6" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="266.8" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="314.0" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="361.2" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="408.4" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="455.6" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="502.8" cy="356.2" r="3.2" fill="#444444"/>
+<circle cx="550.0" cy="356.2" r="3.2" fill="#444444"/>
+<line x1="566" y1="54" x2="596" y2="54" stroke="#444444" stroke-width="3"/>
+<text x="602" y="58" font-size="11.5">M0 (SIMT only)</text>
+<polyline points="78.0,159.5 125.2,161.0 172.4,162.4 219.6,165.9 266.8,170.6 314.0,155.4 361.2,207.4 408.4,266.3 455.6,318.2 502.8,371.5 550.0,356.2" fill="none" stroke="#1f77b4" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="159.5" r="3.2" fill="#1f77b4"/>
+<circle cx="125.2" cy="161.0" r="3.2" fill="#1f77b4"/>
+<circle cx="172.4" cy="162.4" r="3.2" fill="#1f77b4"/>
+<circle cx="219.6" cy="165.9" r="3.2" fill="#1f77b4"/>
+<circle cx="266.8" cy="170.6" r="3.2" fill="#1f77b4"/>
+<circle cx="314.0" cy="155.4" r="3.2" fill="#1f77b4"/>
+<circle cx="361.2" cy="207.4" r="3.2" fill="#1f77b4"/>
+<circle cx="408.4" cy="266.3" r="3.2" fill="#1f77b4"/>
+<circle cx="455.6" cy="318.2" r="3.2" fill="#1f77b4"/>
+<circle cx="502.8" cy="371.5" r="3.2" fill="#1f77b4"/>
+<circle cx="550.0" cy="356.2" r="3.2" fill="#1f77b4"/>
+<line x1="566" y1="76" x2="596" y2="76" stroke="#1f77b4" stroke-width="3"/>
+<text x="602" y="80" font-size="11.5">DX-100 2×8K</text>
+<polyline points="78.0,89.7 125.2,81.5 172.4,73.2 219.6,70.9 266.8,87.7 314.0,153.9 361.2,207.4 408.4,266.3 455.6,318.2 502.8,371.5 550.0,356.2" fill="none" stroke="#d62728" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="89.7" r="3.2" fill="#d62728"/>
+<circle cx="125.2" cy="81.5" r="3.2" fill="#d62728"/>
+<circle cx="172.4" cy="73.2" r="3.2" fill="#d62728"/>
+<circle cx="219.6" cy="70.9" r="3.2" fill="#d62728"/>
+<circle cx="266.8" cy="87.7" r="3.2" fill="#d62728"/>
+<circle cx="314.0" cy="153.9" r="3.2" fill="#d62728"/>
+<circle cx="361.2" cy="207.4" r="3.2" fill="#d62728"/>
+<circle cx="408.4" cy="266.3" r="3.2" fill="#d62728"/>
+<circle cx="455.6" cy="318.2" r="3.2" fill="#d62728"/>
+<circle cx="502.8" cy="371.5" r="3.2" fill="#d62728"/>
+<circle cx="550.0" cy="356.2" r="3.2" fill="#d62728"/>
+<line x1="566" y1="98" x2="596" y2="98" stroke="#d62728" stroke-width="3"/>
+<text x="602" y="102" font-size="11.5">DX-100 2×16K</text>
+<polyline points="78.0,89.7 125.2,81.5 172.4,73.2 219.6,70.9 266.8,87.7 314.0,153.9 361.2,207.4 408.4,266.3 455.6,318.2 502.8,371.5 550.0,356.2" fill="none" stroke="#2ca02c" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="78.0" cy="89.7" r="3.2" fill="#2ca02c"/>
+<circle cx="125.2" cy="81.5" r="3.2" fill="#2ca02c"/>
+<circle cx="172.4" cy="73.2" r="3.2" fill="#2ca02c"/>
+<circle cx="219.6" cy="70.9" r="3.2" fill="#2ca02c"/>
+<circle cx="266.8" cy="87.7" r="3.2" fill="#2ca02c"/>
+<circle cx="314.0" cy="153.9" r="3.2" fill="#2ca02c"/>
+<circle cx="361.2" cy="207.4" r="3.2" fill="#2ca02c"/>
+<circle cx="408.4" cy="266.3" r="3.2" fill="#2ca02c"/>
+<circle cx="455.6" cy="318.2" r="3.2" fill="#2ca02c"/>
+<circle cx="502.8" cy="371.5" r="3.2" fill="#2ca02c"/>
+<circle cx="550.0" cy="356.2" r="3.2" fill="#2ca02c"/>
+<line x1="566" y1="120" x2="596" y2="120" stroke="#2ca02c" stroke-width="3"/>
+<text x="602" y="124" font-size="11.5">DX-100 2×32K</text>
+<text x="86" y="374" font-size="11" fill="#333">DX dips below 1.0 at κ = 0.9: the Bulk residue no longer pays for the engine</text>
+<text x="86" y="359" font-size="11" fill="#333">all four curves meet at κ = 1 (pure SIMT, 40 281 cycles)</text>
+</svg>

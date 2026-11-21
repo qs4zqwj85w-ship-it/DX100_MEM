@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+<rect x="0.0" y="0.0" width="1180.0" height="560.0" fill="#fafafc" opacity="1.00" stroke="none"/>
+<text x="24.0" y="30.0" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#1b1b1f" text-anchor="start" font-weight="bold">M24-G — resource/performance frontier: what the engine's SRAM buys</text>
+<text x="24.0" y="50.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6b75" text-anchor="start" font-weight="normal">x: engine SRAM (window + cohort/cohort-state + ready pool, bytes, as the simulator accounts them). y: Bulk speedup over the unchanged M0-RM cell.  rt = ready pool; W = window elements.</text>
+<rect x="110.0" y="90.0" width="940.0" height="380.0" fill="#ffffff" opacity="1.00" stroke="#e2e2e8"/>
+<line x1="110.0" y1="470.0" x2="1050.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="474.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">0.0</text>
+<line x1="110.0" y1="406.7" x2="1050.0" y2="406.7" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="410.7" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">1.0</text>
+<line x1="110.0" y1="343.3" x2="1050.0" y2="343.3" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="347.3" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">2.0</text>
+<line x1="110.0" y1="280.0" x2="1050.0" y2="280.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="284.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">3.0</text>
+<line x1="110.0" y1="216.7" x2="1050.0" y2="216.7" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="220.7" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">4.0</text>
+<line x1="110.0" y1="153.3" x2="1050.0" y2="153.3" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="157.3" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">5.0</text>
+<line x1="110.0" y1="90.0" x2="1050.0" y2="90.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="100.0" y="94.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="end" font-weight="normal">6.0</text>
+<line x1="110.0" y1="90.0" x2="110.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="110.0" y="488.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="middle" font-weight="normal">244 KiB</text>
+<line x1="345.0" y1="90.0" x2="345.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="345.0" y="488.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="middle" font-weight="normal">334 KiB</text>
+<line x1="580.0" y1="90.0" x2="580.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="580.0" y="488.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="middle" font-weight="normal">425 KiB</text>
+<line x1="815.0" y1="90.0" x2="815.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="815.0" y="488.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="middle" font-weight="normal">515 KiB</text>
+<line x1="1050.0" y1="90.0" x2="1050.0" y2="470.0" stroke="#e2e2e8" stroke-width="1"/>
+<text x="1050.0" y="488.0" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#6b6b75" text-anchor="middle" font-weight="normal">605 KiB</text>
+<text x="580.0" y="510.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6b75" text-anchor="middle" font-weight="normal">engine SRAM (bytes)</text>
+<text x="54.0" y="280.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6b75" text-anchor="middle" font-weight="normal">speedup</text>
+<circle cx="350.9" cy="311.4" r="4.0" fill="#2f6db5"/>
+<circle cx="17.9" cy="329.0" r="4.0" fill="#2f6db5"/>
+<circle cx="1016.9" cy="291.2" r="4.0" fill="#2f6db5"/>
+<circle cx="205.2" cy="311.4" r="4.0" fill="#2f6db5"/>
+<circle cx="517.4" cy="311.5" r="4.0" fill="#2f6db5"/>
+<circle cx="349.9" cy="311.5" r="4.0" fill="#2f6db5"/>
+<circle cx="352.9" cy="311.4" r="4.0" fill="#2f6db5"/>
+<circle cx="350.9" cy="262.3" r="4.0" fill="#d97b28"/>
+<circle cx="17.9" cy="318.0" r="4.0" fill="#d97b28"/>
+<circle cx="1016.9" cy="199.7" r="4.0" fill="#d97b28"/>
+<circle cx="205.2" cy="237.3" r="4.0" fill="#d97b28"/>
+<circle cx="517.4" cy="272.4" r="4.0" fill="#d97b28"/>
+<circle cx="349.9" cy="286.7" r="4.0" fill="#d97b28"/>
+<circle cx="352.9" cy="263.3" r="4.0" fill="#d97b28"/>
+<circle cx="350.9" cy="417.9" r="4.0" fill="#b53a3a"/>
+<circle cx="17.9" cy="423.6" r="4.0" fill="#b53a3a"/>
+<circle cx="1016.9" cy="404.7" r="4.0" fill="#b53a3a"/>
+<circle cx="205.2" cy="417.4" r="4.0" fill="#b53a3a"/>
+<circle cx="517.4" cy="418.5" r="4.0" fill="#b53a3a"/>
+<circle cx="349.9" cy="419.2" r="4.0" fill="#b53a3a"/>
+<circle cx="352.9" cy="417.9" r="4.0" fill="#b53a3a"/>
+<text x="357.9" y="306.4" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">w4 production</text>
+<text x="1023.9" y="286.2" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">w4 W=32K</text>
+<text x="357.9" y="257.3" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">criteo production</text>
+<text x="1023.9" y="194.7" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">criteo W=32K</text>
+<text x="357.9" y="412.9" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">n3 production</text>
+<text x="1023.9" y="399.7" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#6b6b75" text-anchor="start" font-weight="normal">n3 W=32K</text>
+<text x="130.0" y="116.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1b1b1f" text-anchor="start" font-weight="normal">production: 337 KiB - w4 2.50x, criteo 3.28x</text>
+<text x="130.0" y="134.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6b75" text-anchor="start" font-weight="normal">ready pool 512 (281 KiB): same or faster on both</text>
+<text x="130.0" y="152.0" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#6b6b75" text-anchor="start" font-weight="normal">window 32K (593 KiB): +13 % w4, +30 % criteo</text>
+</svg>

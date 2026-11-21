@@ -1,0 +1,6 @@
+ok    dubcova3/simt cycles=3295727 101.60s
+ok    dubcova3/bulk cycles=3956290 24.66s
+ok    ogbn_uniform/simt cycles=44793202 64.36s
+ok    ogbn_uniform/bulk cycles=36604807 29.49s
+ok    ogbn/simt cycles=44637463 67.29s
+ok    ogbn/bulk cycles=35248717 27.85s

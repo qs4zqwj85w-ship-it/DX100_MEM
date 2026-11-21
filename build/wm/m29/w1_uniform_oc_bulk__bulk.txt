@@ -1,0 +1,27 @@
+== configuration ==
+cores=1 warps=4 lanes=4 R=128
+l1=256x4/2cy mshr=128
+l2=16384x8/4cy mshr=64
+dtlb=16x4 mshr=8 parked=2
+l2tlb=512x4 mshr=8 lat=4
+walkers=8 wc=16 walk_lat=150x2
+dram=2 banks x 4096 rows, hit=14 miss=26 link=0 q=0 frfcfs hash lsu_pending=0 core_map=round_robin
+dram_map=0 bank_hash=1 row_bytes=1024 dram_il_lines=1 capacity_mib=8 m24_map=0 m24_dram_org=0 m24_perm_seed=1 page_bytes=4096 page_shift=12 dram_kind=ddr
+hbm=2 stacks x 16 pcs x 4 bg x 4 banks, capacity=4096 MiB row_bytes=1024 map=1 base=1 seed=1 perm_page=4096 il_lines=4 t_rcd=12 t_rp=12 t_ras=28 t_cas=12 t_ccd=2/4 t_rrd=4/6 t_burst=4 t_faw=0 t_refi=0 t_rfc=0
+workload=W1 N=16384 Lambda=16384 P=512 kappa=0 rho_dup=0 seed=1
+front_end=simt ag_lanes=8 eng_issue=4 idx_window=128 desc_fetch=1 bulk_wl=E0 mem_path=l1 idx_oracle=0
+window=16384 page_dir=512 org_lanes=4 fanout_lanes=4 deadline=4096 overlap=1 dedup=1 win_policy=2(default) bulk_stream=0 page_order=1 bulk_org=8 g6a_pa_capacity=65536 g6b_pa_capacity=4096 charge_latch=0
+dispatch=1 op_class=bulk dispatch_order=0 pool_slots=R
+reuse_dir=0 merge=1 charge=1
+cache_diag=1 win_fused=1
+
+== realized workload ==
+accesses=409600 instrs=106496 lines=27137 pages=425 kappa=0.3077 rho_line=0.9337
+
+== summary ==
+cycles=0 lines_per_cycle=0.000 dram_gbs=0.00
+l1 hit_rate=0.000  l2 hit_rate=0.000  tlb0 hit_rate=0.000
+walks=0 pte_fetches=0 walk_stalls=0 replays=0
+
+== counters ==
+conservation=VIOLATED [workload: bulk_data_base overlaps the index array]
